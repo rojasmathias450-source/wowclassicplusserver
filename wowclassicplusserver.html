@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WoW Classic Plus Server</title>
+    <style>
+        body {
+            background-color: #0b0d12;
+            color: #f0eae1;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(180deg, #1a120b 0%, #0b0d12 100%);
+            border-bottom: 2px solid #c79c5e;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #fcd116;
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px #000;
+            letter-spacing: 2px;
+        }
+        .subtitle {
+            color: #a3a3a3;
+            font-style: italic;
+            margin-top: 5px;
+            font-size: 1.1rem;
+        }
+        main {
+            flex: 1;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .card {
+            background-color: #151922;
+            border: 1px solid #2e3748;
+            border-radius: 6px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        h2 {
+            color: #c79c5e;
+            border-bottom: 1px solid #2e3748;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        p {
+            line-height: 1.6;
+            color: #d1cbd4;
+        }
+        .realmlist-box {
+            background-color: #090b10;
+            border: 1px dashed #c79c5e;
+            padding: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #4fe3c1;
+            text-align: center;
+            font-size: 1.2rem;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .features-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #1f2532;
+            display: flex;
+            align-items: center;
+        }
+        .features-list li::before {
+            content: "✦";
+            color: #c79c5e;
+            margin-right: 10px;
+        }
+        footer {
+            background-color: #07080c;
+            text-align: center;
+            padding: 20px;
+            color: #555;
+            font-size: 0.9rem;
+            border-top: 1px solid #151922;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>WoW Classic Plus Server</h1>
+        <div class="subtitle">Explorando los misterios ocultos de Azeroth</div>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>¡Bienvenidos Aventureros!</h2>
+            <p>Este es el sitio oficial de nuestro servidor privado basado en el concepto <strong>Classic Plus</strong> y los archivos de WoW Forever. Aquí nos dedicamos a revivir la esencia del juego original, abriendo las fronteras hacia aquellas zonas, mazmorras y mapas fantasma que Blizzard dejó ocultos en el código durante años.</p>
+        </div>
+
+        <div class="card">
+            <h2>Cómo Conectarse</h2>
+            <p>Para ingresar a jugar con nosotros en el servidor, asegúrate de modificar tu archivo de configuración del cliente de WoW de la siguiente manera:</p>
+            <p>Abre el archivo <code>realmlist.wtf</code> con el bloc de notas y reemplaza todo su contenido por la siguiente línea:</p>
+            <div class="realmlist-box">
+                set realmlist tu_ip_publica_o_dominio
+            </div>
+            <p><em>Nota: Recuerda cambiar el texto en verde por la dirección IP real de tu servidor.</em></p>
+        </div>
+
+        <div class="card">
+            <h2>Características del Servidor</h2>
+            <ul class="features-list">
+                <li><strong>Zonas Ocultas Desbloqueadas:</strong> Explora Mount Hyjal, Shen'dralar, Riverglades y más.</li>
+                <li><strong>Nuevas Mazmorras Clásicas:</strong> Hall of Thanes debajo de Ironforge y la cúpula de Dalaran.</li>
+                <li><strong>Estabilidad y Soporte:</strong> Base de datos optimizada basada en emulación avanzada.</li>
+                <li><strong>Comunidad Activa:</strong> Un espacio seguro para compartir capturas, teorías y expediciones de exploración.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 WoW Classic Plus Server. Creado con fines educativos y de desarrollo de emulación.</p>
+    </footer>
+
+</body>
+</html>
